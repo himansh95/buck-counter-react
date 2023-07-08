@@ -1,0 +1,6 @@
+{
+  "app.name": "Buck Counter",
+  "nav.item.home": "Home",
+  "nav.item.accounts": "Accounts",
+  "nav.item.transactions": "Transactions"
+}

@@ -1,0 +1,14 @@
+.nav-bar {
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      padding-right: 1em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
