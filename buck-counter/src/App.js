@@ -1,13 +1,13 @@
 import './App.css';
-import HeaderBar from './components/common/headerBar';
+import HeaderBar from './components/common/HeaderBar';
 import { initReactI18next } from 'react-i18next';
 import i18n from 'i18next';
 import enTranslations from './locales/en.json';
 import hiTranslations from './locales/hi.json';
 import { Routes, Route } from 'react-router-dom';
-import Home from './components/pages/home';
-import Accounts from './components/pages/accounts';
-import Transactions from './components/pages/transactions';
+import Home from './components/pages/Home';
+import Accounts from './components/pages/Accounts';
+import Transactions from './components/pages/Transactions';
 
 // Initialize i18next
 i18n.use(initReactI18next).init({
