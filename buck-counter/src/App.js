@@ -5,9 +5,9 @@ import i18n from 'i18next';
 import enTranslations from './locales/en.json';
 import hiTranslations from './locales/hi.json';
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/home';
-import Accounts from './pages/accounts';
-import Transactions from './pages/transactions';
+import Home from './components/pages/home';
+import Accounts from './components/pages/accounts';
+import Transactions from './components/pages/transactions';
 
 // Initialize i18next
 i18n.use(initReactI18next).init({
